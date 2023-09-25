@@ -298,7 +298,7 @@ main .section.red-highlight .button-container>a.button.primary {
         border: 2px solid #fff;
         border-radius: 0;
 }
-main .section.red-highlight .button-container>a:focus-within{}
+main .section.red-highlight .button-container>a:focus-within{
     outline-style: solid;
     outline-width: 2px;
     outline-offset: 4px;
