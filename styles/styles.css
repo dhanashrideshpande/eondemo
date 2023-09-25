@@ -249,6 +249,9 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+main .section.lightgrey-highlight {
+  background-color: var(--overlay-background-color);
+}
 main .section.hero-container {
   text-align:right;
 }
