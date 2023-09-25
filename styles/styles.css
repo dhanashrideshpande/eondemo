@@ -326,3 +326,21 @@ main .section.quicklinks-highlight ul li{
 main .section.two-column-card-images .columns-img-col {
     margin: 20px 0px 20px 0px;
 }
+header .nav-brand {
+    color: transparent;
+}
+footer.block p a {
+     font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+     margin: 0px;
+     font-weight: var(--fontWeight);
+     font-size: var(--fontSize);
+     line-height: var(--lineHeight);
+     display: inline-flex;
+     align-items: center;
+     transition: color 0.25s ease-in-out 0s;
+     text-decoration: none;
+     color: var(--contentColor);
+     min-height: var(--minHeight);
+     cursor: pointer;
+     width: 100%;
+ }
