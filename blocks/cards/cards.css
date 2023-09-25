@@ -14,6 +14,9 @@
 
 .cards .cards-card-body {
   margin: 16px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .cards .cards-card-image {
