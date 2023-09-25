@@ -256,6 +256,12 @@ main .section.lightgrey-highlight {
 main .section.red-highlight {
   background-color: var(--red-background-color);
 }
+main .section.red-highlight.default-content-wrapper {
+    text-align: right;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+}
 main .section.hero-container {
   text-align:right;
 }
