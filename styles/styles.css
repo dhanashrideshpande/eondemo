@@ -274,3 +274,9 @@ main .section > div > .default-content-wrapper {
 main .section.hero-container {
   text-align:right;
 }
+main .section.red-highlight .default-content-wrapper{
+    text-align: right;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+}
