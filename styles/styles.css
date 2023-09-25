@@ -304,3 +304,19 @@ main .section.red-highlight .button-container>a:focus-within{}
     outline-offset: 4px;
     outline-color: #fff;
  }
+
+main .section.quicklinks-highlight a{
+     font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+     margin: 0px;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 24px;
+     display: inline-flex;
+     align-items: center;
+     transition: color 0.25s ease-in-out 0s;
+     text-decoration: none;
+     color: #EA1B0A;
+     min-height: 32px;
+     cursor: pointer;
+     width: 100%;
+}
