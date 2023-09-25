@@ -260,7 +260,7 @@ main .section.red-highlight {
   background-color: var(--red-background-color);
   color: #eee;
 }
-main .section > div .default-content-wrapper {
+main .section > div > default-content-wrapper {
     text-align: right;
     font-size: 72px;
     font-weight: bold;
