@@ -254,7 +254,12 @@ main .section.highlight {
   background-color: var(--highlight-background-color);
 }
 main .section.lightgrey-highlight {
-  background-color: var(--overlay-background-color);
+   background-color: var(--overlay-background-color);
+   font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+    margin: 0px 0px 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
 main .section.red-highlight {
   background-color: var(--red-background-color);
@@ -268,11 +273,4 @@ main .section > div > .default-content-wrapper {
 }
 main .section.hero-container {
   text-align:right;
-}
-main .section > div > .columns-wrapper.columns block columns-2-cols{
-    font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
-    margin: 0px 0px 16px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
 }
