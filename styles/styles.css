@@ -334,7 +334,7 @@ footer .footer.block p a{
      margin: 0px;
      font-weight: 700;
      font-size: 18px;
-     line-height: 24;
+     line-height: 24px;
      display: inline-flex;
      align-items: center;
      transition: color 0.25s ease-in-out 0s;
@@ -346,7 +346,6 @@ footer .footer.block p a{
  }
   footer .footer.block ul li{
   list-style:none;
-
   }
  footer .footer.block ul li a{
      font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
