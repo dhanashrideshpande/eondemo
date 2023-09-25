@@ -320,3 +320,6 @@ main .section.quicklinks-highlight a{
      cursor: pointer;
      width: 100%;
 }
+main .section.quicklinks-highlight ul li{
+    list-style-image: url("../icons/red-arrow.svg");
+}
