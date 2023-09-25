@@ -16,6 +16,7 @@
   --link-hover-color: #136ff6;
   --background-color: #fff;
   --overlay-background-color: #eee;
+  --red-background-color: #990000;
   --highlight-background-color: #ccc;
   --text-color: #000;
 
@@ -251,6 +252,9 @@ main .section.highlight {
 }
 main .section.lightgrey-highlight {
   background-color: var(--overlay-background-color);
+}
+main .section.red-highlight {
+  background-color: var(--red-background-color);
 }
 main .section.hero-container {
   text-align:right;
