@@ -280,3 +280,24 @@ main .section.red-highlight .default-content-wrapper{
     font-weight: bold;
     color: #fff;
 }
+main .section.red-highlight .button-container>a.button.primary {
+    font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+    margin: 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.25s ease-in-out 0s;
+    text-decoration: none;
+    color: green;
+    min-height: 32px;
+    cursor: pointer;
+    width: 100%;
+}
+main .section.red-highlight .button-container>a:focus-within{}
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 4px;
+    outline-color: #fff;
+ }
