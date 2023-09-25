@@ -332,30 +332,34 @@ header .nav-brand {
 footer .footer.block p a{
      font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
      margin: 0px;
-     font-weight: var(--fontWeight);
-     font-size: var(--fontSize);
-     line-height: var(--lineHeight);
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 24;
      display: inline-flex;
      align-items: center;
      transition: color 0.25s ease-in-out 0s;
      text-decoration: none;
-     color: var(--contentColor);
-     min-height: var(--minHeight);
+     color: #39393A;
+     min-height: auto;
      cursor: pointer;
      width: 100%;
  }
+  footer .footer.block ul li{
+  list-style:none;
+
+  }
  footer .footer.block ul li a{
      font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
      margin: 0px;
-     font-weight: var(--fontWeight);
-     font-size: var(--fontSize);
-     line-height: var(--lineHeight);
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 18px;
      display: inline-flex;
      align-items: center;
      transition: color 0.25s ease-in-out 0s;
      text-decoration: none;
-     color: var(--contentColor);
-     min-height: var(--minHeight);
+     color: #000;
+     min-height:auto;
      cursor: pointer;
      width: 100%;
  }
