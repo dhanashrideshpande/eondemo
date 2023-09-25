@@ -329,7 +329,7 @@ main .section.two-column-card-images .columns-img-col {
 header .nav-brand {
     color: transparent;
 }
-footer.block p a {
+footer .footer.block p a{
      font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
      margin: 0px;
      font-weight: var(--fontWeight);
