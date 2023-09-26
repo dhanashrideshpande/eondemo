@@ -199,7 +199,7 @@ export async function decorateIcons(element) {
         } else {
           ICONS_CACHE[iconName] = {
             html: svg
-              .replace('<svg', `<symbol id="    icons-sprite-${iconName}"`)
+              .replace('<svg', `<symbol id="icons-sprite-${iconName}"`)
               .replace(/ width=".*?"/, '')
               .replace(/ height=".*?"/, '')
               .replace('</svg>', '</symbol>'),

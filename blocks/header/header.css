@@ -273,3 +273,8 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+header .nav-tools img {
+    width: 100px;
+    height: 40px;
+}
