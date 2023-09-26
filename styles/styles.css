@@ -369,3 +369,7 @@ footer .footer.block p a{
  main .section.two-column-card-images h2 {
      text-align: right;
  }
+ main .section.card-highlight h2 {
+     color: #eee;
+     text-align: right;
+ }
