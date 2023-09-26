@@ -253,6 +253,10 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+main .section.card-highlight {
+  background-color: #B00402;
+}
+
 main .section.lightgrey-highlight {
    background-color: var(--overlay-background-color);
    font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
