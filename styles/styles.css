@@ -362,3 +362,6 @@ footer .footer.block p a{
      cursor: pointer;
      width: 100%;
  }
+ main .section.two-column-card-images h2 {
+     text-align: right;
+ }
