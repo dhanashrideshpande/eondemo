@@ -278,3 +278,13 @@ header .nav-tools img {
     width: 100px;
     height: 40px;
 }
+
+header .nav-tools .icon.icon-user{
+    padding: 40px 10px 0px 10px;
+}
+header .nav-tools .icon.icon-search {
+    padding: 40px 10px 0px 10px;
+}
+header .nav-tools .icon.icon-lang {
+    padding: 40px 10px 0px 10px;
+}
