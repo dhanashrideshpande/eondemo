@@ -16,6 +16,7 @@
   --link-hover-color: #136ff6;
   --background-color: #fff;
   --overlay-background-color: #eee;
+  --red-background-color: #990000;
   --highlight-background-color: #ccc;
   --text-color: #000;
 
@@ -90,7 +91,10 @@ h4, h5, h6 {
 }
 
 h1 { font-size: var(--heading-font-size-xxl) }
-h2 { font-size: var(--heading-font-size-xl) }
+h2 {
+    color: #EA1B0A;
+    font-size: 72px;
+}
 h3 { font-size: var(--heading-font-size-l) }
 h4 { font-size: var(--heading-font-size-m) }
 h5 { font-size: var(--heading-font-size-s) }
@@ -249,3 +253,126 @@ main .section {
 main .section.highlight {
   background-color: var(--highlight-background-color);
 }
+main .section.card-highlight {
+  background-color: #B00402;
+}
+
+main .section.lightgrey-highlight {
+   background-color: var(--overlay-background-color);
+   font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+    margin: 0px 0px 16px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+main .section.red-highlight {
+  background-color: var(--red-background-color);
+  color: #eee;
+}
+main .section > div > .default-content-wrapper {
+    text-align: right;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+}
+main .section.hero-container {
+  text-align:right;
+}
+main .section.red-highlight .default-content-wrapper{
+    text-align: right;
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+}
+main .section.red-highlight .button-container>a.button.primary {
+    font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+        margin: 0px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        display: inline-flex;
+        align-items: center;
+        transition: color 0.25s ease-in-out 0s;
+        text-decoration: none;
+        color: #fff;
+        min-height: 32px;
+        cursor: pointer;
+        width: 100%;
+        background-color: transparent;
+        border: 2px solid #fff;
+        border-radius: 0;
+}
+main .section.red-highlight .button-container>a:focus-within{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-offset: 4px;
+    outline-color: #fff;
+ }
+
+main .section.quicklinks-highlight a{
+     font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+     margin: 0px;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 24px;
+     display: inline-flex;
+     align-items: center;
+     transition: color 0.25s ease-in-out 0s;
+     text-decoration: none;
+     color: #EA1B0A;
+     min-height: 32px;
+     cursor: pointer;
+     width: 100%;
+}
+main .section.quicklinks-highlight ul li{
+    list-style-image: url("../icons/red-arrow.svg");
+}
+main .section.two-column-card-images .columns-img-col {
+    margin: 20px 0px 20px 0px;
+}
+header .nav-brand {
+    color: transparent;
+}
+footer .footer.block p a{
+     font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+     margin: 0px;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 24px;
+     display: inline-flex;
+     align-items: center;
+     transition: color 0.25s ease-in-out 0s;
+     text-decoration: none;
+     color: #39393A;
+     min-height: auto;
+     cursor: pointer;
+     width: 100%;
+ }
+  footer .footer.block ul li{
+  list-style:none;
+  }
+ footer .footer.block ul li a{
+     font-family: EONBrixSans, Arial, Geneva, Helvetica, sans-serif;
+     margin: 0px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 18px;
+     display: inline-flex;
+     align-items: center;
+     transition: color 0.25s ease-in-out 0s;
+     text-decoration: none;
+     color: #000;
+     min-height:auto;
+     cursor: pointer;
+     width: 100%;
+ }
+ main .section.two-column-card-images h2 {
+     text-align: right;
+ }
+ main .section.card-highlight h2 {
+     color: #eee;
+     text-align: right;
+ }
+ main .section.card-highlight p {
+     color: #eee;
+ }
